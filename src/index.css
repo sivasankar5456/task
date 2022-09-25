@@ -1,11 +1,165 @@
 
-body{
-    /* background-color: green; */
+h1{
+    color: red;
+
+}
+.enter-task{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:radial-gradient(purple,black);
+}
+.enter-task input{
+    
+    border: 2px solid purple;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.enter-task input:active{
+    border: 2px solid red;
+
+}
+.disply-task{
+    margin-top: -30px;
+   
+    background:radial-gradient(blue,black);
+}
+table{
+    color: white;
+    font-size: 30px;
+    background:radial-gradient(blue,black);
+
+}
+thead{
+    background:radial-gradient(purple,black);
+
+}
+tbody{
+    background:radial-gradient(green,black);
+
+}
+#btn{
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px crimson;
+    background-color: crimson;
+    color: white;
+    font-size: 25px;
+}
+#btn:focus{
+    background-color: blue;
+    border: solid 1px blue;
+
+}
+#btn1{
+    margin-left: 10px;
+    height: 33px;
+    border-radius: 5px;
+    border: solid 1px blue;
+    background-color: blue;
+    color: white;
+    font-size: 20px; 
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+#btn1:focus{
+    background-color: green;
+    border: solid 1px green;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
  #task-detail{
     background:linear-gradient(120deg,rgb(15, 15, 146),rgb(10, 164, 224));
-/* background: radial-gradient(40deg,45deg,blue,black); */
     width: 1000px;
     height: auto;
     padding: 20px;
@@ -79,4 +233,4 @@ border-radius: 10px;
 
 
 
-
+ */

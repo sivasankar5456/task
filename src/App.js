@@ -1,10 +1,12 @@
 import './App.css';
-import Home from './components/Home';
+import Addtask from './components/Addtask';
+import Displaytask from './components/Displaytask';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Addtask/>
+      <Displaytask/>
     </div>
   );
 }
